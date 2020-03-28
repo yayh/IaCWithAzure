@@ -5,5 +5,7 @@ terraform {
     container_name       = "terraform"
     key                  = "dev.terraform.tfstate"
   }
+  
+  features {}
 }
 
